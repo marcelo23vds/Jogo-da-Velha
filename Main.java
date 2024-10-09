@@ -61,13 +61,14 @@ public class Main {
                                 + posicoes[3] + "  " + posicoes[4] + "  " + posicoes[5] + "\n"
                                 + posicoes[6] + "  " + posicoes[7] + "  " + posicoes[8]);
 
-                if (posicoes[0] == posicoes[1] && posicoes[1] == posicoes[2]
+                if (       posicoes[0] == posicoes[1] && posicoes[1] == posicoes[2]
                         || posicoes[0] == posicoes[4] && posicoes[4] == posicoes[8]
                         || posicoes[0] == posicoes[3] && posicoes[3] == posicoes[6]
                         || posicoes[1] == posicoes[4] && posicoes[4] == posicoes[7]
                         || posicoes[6] == posicoes[4] && posicoes[4] == posicoes[2]
                         || posicoes[2] == posicoes[5] && posicoes[5] == posicoes[8]
                         || posicoes[6] == posicoes[7] && posicoes[7] == posicoes[8]
+                        || posicoes[3] == posicoes[4] && posicoes[4] == posicoes[5]
                 ) {
                     verificarVitoria = 1;
                     break;
@@ -114,13 +115,14 @@ public class Main {
                                 + posicoes[3] + "  " + posicoes[4] + "  " + posicoes[5] + "\n"
                                 + posicoes[6] + "  " + posicoes[7] + "  " + posicoes[8]);
 
-                if (posicoes[0] == posicoes[1] && posicoes[1] == posicoes[2]
+                if (       posicoes[0] == posicoes[1] && posicoes[1] == posicoes[2]
                         || posicoes[0] == posicoes[4] && posicoes[4] == posicoes[8]
                         || posicoes[0] == posicoes[3] && posicoes[3] == posicoes[6]
                         || posicoes[1] == posicoes[4] && posicoes[4] == posicoes[7]
                         || posicoes[6] == posicoes[4] && posicoes[4] == posicoes[2]
                         || posicoes[2] == posicoes[5] && posicoes[5] == posicoes[8]
                         || posicoes[6] == posicoes[7] && posicoes[7] == posicoes[8]
+                        || posicoes[3] == posicoes[4] && posicoes[4] == posicoes[5]
                 ) {
                     verificarVitoria = 2;
                     break;
